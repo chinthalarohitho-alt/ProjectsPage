@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #2c1e0e;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 1vh;
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.glass {
+    background: rgba(255, 255, 255, 0.266);
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 12px;
+}
+
+.header {
+    margin-top: 15vh;
+    margin-right: 2vh;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    margin-top: 4vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 2vh 2vh; 
+}
+
+td {
+    padding: 1vh;
+}
